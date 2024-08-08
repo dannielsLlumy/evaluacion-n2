@@ -36,7 +36,7 @@ export const ScreenN5 = () => {
             <Text style={styles.result}>{result}</Text>
             <Button title="INICIO"
                 onPress={() => navigation.dispatch(CommonActions.navigate({ name: 'ScreenN1' }))} />
-            <Text style={styles.title}>"BOTON PARA IR A LA PANTALLA DE MENOR O IGUAL"</Text>
+            <Text style={styles.title}>"BOTON PARA IR A LA PANTALLA DE INICIO"</Text>
         </View>
     );
 };
